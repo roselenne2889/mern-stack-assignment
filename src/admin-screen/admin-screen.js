@@ -75,10 +75,10 @@ class AdminScreen extends React.Component {
     render() {
         return (
             <Container>
-                <Button variant="primary" onClick={this.getEventLog}>
+                <Button variant="success" onClick={this.getEventLog}>
                     Event Log
                 </Button>
-                <Button variant="primary" onClick={this.getAllHistory}>
+                <Button variant="success" onClick={this.getAllHistory}>
                     Chat History
                 </Button>
                 <Table>
