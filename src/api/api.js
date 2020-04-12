@@ -9,7 +9,7 @@ export async function getFromDatabase(url) {
     return await content;
 }
 
-export async function getFromDatabasePost(url, postForm) {
+export async function databasePost(url, postForm) {
     let content;
     try {
         const rawResponse = await fetch(`${endPoint}/${url}`, {

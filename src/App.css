@@ -1,3 +1,6 @@
+body {
+    background-color: plum;
+}
 .App {
     text-align: center;
     background-color: plum;
@@ -40,4 +43,8 @@
 
 table {
     background-color: pink;
+}
+
+body {
+    height: 1000px;
 }
