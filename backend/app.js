@@ -21,6 +21,7 @@ mongoose
 const historyRoute = require("./routes/history.route");
 const eventlogRoute = require("./routes/eventlog.route");
 const roomRoute = require("./routes/room.route");
+const adminRoute = require("./routes/admin.route");
 const app = express();
 app.use(bodyParser.json());
 app.use(
@@ -32,6 +33,7 @@ app.use(cors());
 app.use("/api/history", historyRoute);
 app.use("/api/eventlog", eventlogRoute);
 app.use("/api/room", roomRoute);
+app.use("/api/admin", adminRoute);
 
 //set the template engine ejs
 app.set("view engine", "ejs");

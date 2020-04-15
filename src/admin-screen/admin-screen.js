@@ -1,6 +1,7 @@
 import React from "react";
 import { getFromDatabase, databasePost } from "../api/api";
 import { Container, Table, Button, Modal, Form } from "react-bootstrap";
+import { Link } from "react-router-dom";
 class AdminScreen extends React.Component {
     constructor(props) {
         super(props);
@@ -192,6 +193,10 @@ class AdminScreen extends React.Component {
                 >
                     Add New Room
                 </Button>
+                <Link to="/admin-login" className="btn btn-primary">
+                    Logout
+                </Link>
+
                 <Table>
                     <caption></caption>
                     <thead>{this.state.currentViewHeaders}</thead>
