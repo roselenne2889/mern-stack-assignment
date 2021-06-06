@@ -2,6 +2,8 @@
 
 Beatriz Morales-101159722 & Ayusha Chaudry-100968449
 
+Chat application using the MERN stack
+
 ##Instructions to run:
 
 1. Open two terminals
